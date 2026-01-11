@@ -1,4 +1,4 @@
-# DAY-9 Check are the two Strings are anagrams
+# DAY-1 Check are the two Strings are anagrams
 #  Definition : when the characters and length of two are same then those strings are knows as anagrams
 # CODE LOGIC: Method-1 We can solve this problem by three ways one is using two empty dictionaries then using for loop count the frequency of two string separately and comapre the  lenth of two strings if they are not equal then false meaning the strings are not anagrams else they are anagrams
 # Method-2 : We can use sort method the inbuilt method and then compare both the string if equal then strings are anagrams else not
