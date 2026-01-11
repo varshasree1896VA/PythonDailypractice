@@ -1,4 +1,4 @@
-# write a program to reverse a string
+#  day-2 write a program to reverse a string
 # logic:
 # Method-1 take a empty string because string are immutable we can change the value of a string inplace so to reverse the string we nee to apply prepending char in forward dirctions so string is reversed and then return it using  a for loop
 # Method-2 we can also solve this problem by using two pointer by using a while loop
