@@ -5,7 +5,7 @@ import csv
 counter = 0 # initialize counter
 
 # use a full path sice the tests csv files are in the downloads folder
-with open("C:/Users/mirdo/Downloads/test_results.csv - Sheet1.csv", "r") as file:
+with open("C:/Users/mirdo/Downloads/test_results.csv - Sheet1.csv", "r", newline="") as file:
     testfailed = csv.DictReader(file)
     for row in testfailed:
         if row["status"].strip().lower() == "fail": # compare it
