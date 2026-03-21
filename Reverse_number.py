@@ -17,7 +17,7 @@ print(reverse_number(n=152))
     # dry run
     # step    n=n//10       rev = rev*10 + digit
     # start     152               -
-    #  1        15                2
-    #  2         1                5
-    #  3         0                1
+    #  1        15                0*10+2=2
+    #  2         1                2*10+5=25
+    #  3         0                25*10+1=251
     #finally reverse number = 251
